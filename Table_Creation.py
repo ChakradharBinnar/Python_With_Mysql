@@ -1,7 +1,7 @@
 import mysql.connector as con
 
 mydb = con.connect(host='localhost', user='root',
-                   password='Binnar@123', database='data2')
+                   password='*******', database='data2')
 
 db_cursor = mydb.cursor()
 db_cursor.execute(
