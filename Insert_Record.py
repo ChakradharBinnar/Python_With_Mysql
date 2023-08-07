@@ -13,7 +13,7 @@ db_cursor = connection.cursor()
 # multiple record inseted
 insert_query = 'insert into employee(id, name, city) values (%s,%s,%s)'
 
-db_list = [(2, 'Babdii', 'Delhi'), (3, 'Pradnya', 'sangamner')]
+db_list = [(2, 'swara', 'Delhi'), (3, 'Pradnya', 'sangamner')]
 
 db_cursor.executemany(insert_query, db_list)
 connection.commit()
